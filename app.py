@@ -40,3 +40,7 @@ st.write('Values:', values)
 
 age=st.slider('How old are you?', 0, 30, 34)
 st.write("I am ", age ,'years old')
+
+
+if st.button('Test'):
+    st.balloons()
